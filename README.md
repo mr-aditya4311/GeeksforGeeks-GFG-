@@ -1,30 +1,23 @@
-name: Auto Update README
+# GeeksforGeeks Problems
+A collection of GeeksforGeeks questions to strengthen problem-solving skills!
 
-on:
-  push:
-    branches:
-      - main
+<!---GFG Topics Start-->
+# GFG Topics
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+## Array
+|  |
+| ------- |
+| [700312-third-largest-GFG](https://github.com/mr-aditya4311/GeeksforGeeks-GFG/tree/main/700312-third-largest-GFG) |
+| [-second-largest-GFG](https://github.com/mr-aditya4311/GeeksforGeeks-GFG/tree/main/-second-largest-GFG) |
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+## Searching
+|  |
+| ------- |
+| [700312-third-largest-GFG](https://github.com/mr-aditya4311/GeeksforGeeks-GFG/tree/main/700312-third-largest-GFG) |
 
-      - name: Run README Generator
-        run: |
-          python readme-generator.py
+## Sorting
+|  |
+| ------- |
+| [700312-third-largest-GFG](https://github.com/mr-aditya4311/GeeksforGeeks-GFG/tree/main/700312-third-largest-GFG) |
 
-      - name: Commit & Push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Auto update README"
-          git push
+<!---GFG Topics End-->
