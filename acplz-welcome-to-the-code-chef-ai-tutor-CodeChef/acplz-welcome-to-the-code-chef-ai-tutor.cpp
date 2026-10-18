@@ -3,8 +3,9 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int temp;
-	if(temp>30)
+	int T;
+	cin>>T;
+	if(T>30)
 	{
 	    cout<<"YES";
 	}
